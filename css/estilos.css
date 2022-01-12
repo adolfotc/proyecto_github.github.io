@@ -1,0 +1,66 @@
+html{
+  background-color: rgb(221, 230, 233);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+  position: relative;
+  font-weight: bold;
+  color:#4b4a4a;
+  text-align: center;
+  margin-top: 60px;
+}
+h2{
+  margin-left: 20px;
+  text-align: center;
+  margin-top:60px;
+}
+#personal{
+  margin-left: 10%;
+}
+
+#personal ol, li{
+  margin-left: 20%;
+}
+p{
+  position:relative;
+  color:rgb(53, 53, 6);
+  text-align: center;
+  margin-left: 10px;
+}
+
+#boton{
+  position:absolute;
+  background-color: #fff;
+  float:right;
+  display: inherit;
+  width:80px;
+  z-index:50;
+}
+#boton p{
+  text-align: left;
+  text-decoration: none;
+  height:10px;
+}
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(146, 9, 32);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(0, 195, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(255, 174, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
